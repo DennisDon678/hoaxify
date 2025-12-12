@@ -1,0 +1,43 @@
+{
+  "name": "hoaxify",
+  "version": "1.0.0",
+  "description": "first attempt to use TDD in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "start": "nodemon index.js"
+  },
+  "author": "Dennis from Instant Codes",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.39.1",
+    "express": "^5.2.1",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.1.4"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "env": {
+      "node": true,
+      "es6": true,
+      "jest": true
+    },
+    "rules": {
+      "semi": "warn",
+      "quotes": [
+        "warn",
+        "single"
+      ]
+    }
+  }
+}
