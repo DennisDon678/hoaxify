@@ -10,6 +10,7 @@
   "author": "Dennis from Instant Codes",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "eslint": "^9.39.1",
     "express": "^5.2.1",
     "sequelize": "^6.37.7",
